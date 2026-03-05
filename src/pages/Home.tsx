@@ -88,7 +88,14 @@ export default function Home() {
                   className="group block rounded-2xl border border-zinc-200 p-5 hover:bg-zinc-50 dark:border-zinc-800 dark:hover:bg-zinc-900"
                 >
                   <div className="flex items-start justify-between gap-4">
-                    <div>
+                    <div className="w-full">
+                      {c.cover ? (
+                      <img
+                      src={c.cover}
+                      alt={c.title}
+                      className="mb-4 w-full rounded-xl border border-zinc-200 object-cover dark:border-zinc-800"
+                      />
+                      ) : null}
                       <h3 className="font-medium">{c.title}</h3>
                       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">{c.subtitle}</p>
                       <div className="mt-3 flex flex-wrap gap-2">

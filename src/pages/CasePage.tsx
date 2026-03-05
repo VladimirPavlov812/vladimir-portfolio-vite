@@ -43,6 +43,21 @@ export default function CasePage() {
         </div>
       ) : null}
 
+
+      {c.images?.length ? (
+      <div className="mt-10 space-y-6">
+      {c.images.map((src: string) => (
+      <img
+        key={src}
+        src={src}
+        alt={c.title}
+        className="w-full rounded-2xl border border-zinc-200 dark:border-zinc-800"
+        loading="lazy"
+      />
+      ))}
+      </div>
+      ) : null}
+
       <div className="mt-10 space-y-8">
         {c.sections.map((s: any) => (
           <section key={s.h}>
