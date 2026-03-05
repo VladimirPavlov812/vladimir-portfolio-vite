@@ -1,0 +1,13 @@
+{
+  "redirects": [
+    { "source": "/yasha", "destination": "/cases/yasha", "permanent": true },
+    { "source": "/sdare", "destination": "/cases/sdare", "permanent": true },
+    { "source": "/custdev", "destination": "/cases/custdev", "permanent": true },
+    { "source": "/Textdocs", "destination": "/cases/textdocs", "permanent": true },
+    { "source": "/metrictree", "destination": "/cases/metrictree", "permanent": true },
+    { "source": "/seb", "destination": "/cases/seb", "permanent": true },
+    { "source": "/edi", "destination": "/cases/edi", "permanent": true },
+    { "source": "/conf", "destination": "/cases/conf", "permanent": true }
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
