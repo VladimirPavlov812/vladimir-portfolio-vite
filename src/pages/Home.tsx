@@ -1,31 +1,7 @@
 import { site } from "../content/site";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
 
-function ThemeToggle() {
-  const [mounted, setMounted] = useState(false);
-  const [dark, setDark] = useState(false);
 
-  useEffect(() => {
-    setMounted(true);
-
-    const saved = localStorage.getItem("theme");
-    const isDark = saved
-      ? saved === "dark"
-      : window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    setDark(isDark);
-    document.documentElement.classList.toggle("dark", isDark);
-  }, []);
-
-  if (!mounted) {
-    return (
-      <span className="inline-block h-[38px] w-[86px] rounded-full border border-white/40" />
-    );
-  }
-
-  
-}
 
 function Section({
   title,
@@ -72,7 +48,7 @@ export default function Home() {
               </div>
             </div>
 
-            <ThemeToggle />
+
           </div>
         </div>
       </section>
