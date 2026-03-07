@@ -19,7 +19,7 @@ export default function CasePage() {
   }
 
   return (
-    <main className="mx-auto max-w-3xl px-5 pb-24 pt-10 bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50 min-h-screen">
+    <main className="mx-auto max-w-6xl px-6 pb-24 pt-10 bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50 min-h-screen">
       <Link to="/" className="text-sm text-zinc-600 underline underline-offset-4 hover:opacity-80 dark:text-zinc-400">
         ← Назад
       </Link>
