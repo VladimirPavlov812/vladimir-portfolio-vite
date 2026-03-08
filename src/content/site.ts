@@ -41,6 +41,31 @@ export const site = {
 
   caseGroups: [
     {
+      title: "B2B финтех кейс",
+      items: [
+        {
+          slug: "b2b_int",
+          title: 'Интеграция учётных систем с банками: B2B Финтех',
+          subtitle:
+            "Кейс Mercedes-Benz RUS — автоматизация полного платёжного цикла с Райффайзен Банком и МББР",
+          tags: ["B2B", "FinTech", "Integrations"],
+          cover: "/cases/b2b_int/cover.png",
+          images: [
+            "/cases/b2b_int/1.png",
+            "/cases/b2b_int/2.png",
+            "/cases/b2b_int/3.png",
+            "/cases/b2b_int/4.png",
+            "/cases/b2b_int/5.png",
+            "/cases/b2b_int/6.png",
+            "/cases/b2b_int/7.png",
+            "/cases/b2b_int/8.png",
+          ],
+          sections: [],
+        },  
+        
+      ] as Case[],
+    },
+    {
       title: "Продуктовые кейсы",
       items: [
         {
@@ -75,60 +100,6 @@ export const site = {
             "/cases/sdare/6.jpg",
             "/cases/sdare/7.jpg",
             "/cases/sdare/8.jpg",
-          ],
-          sections: [],
-        },
-      ] as Case[],
-    },
-    {
-      title: "AI кейсы",
-      items: [
-        {
-          slug: "custdev",
-          title: "AI CustDev Assistant",
-          subtitle:
-            "Кейс автоматизации анализа B2B-интервью в проекте «Сервис Яша» — революционное решение для обработки интервью с владельцами шиномонтажей и партнёрами.",
-          tags: ["AI", "CustDev", "Automation"],
-          cover: "/cases/custdev/cover.png",
-          images: [
-            "/cases/custdev/1.jpg",
-            "/cases/custdev/2.jpg",
-            "/cases/custdev/3.jpg",
-            "/cases/custdev/4.jpg",
-            "/cases/custdev/5.jpg",
-            "/cases/custdev/6.jpg",
-          ],
-          sections: [],
-        },
-        {
-          slug: "textdocs",
-          title: "Google docs automation",
-          subtitle: "Кейс: Автоматизация создания тестовой документации с помощью AI.",
-          tags: ["AI", "Docs", "Automation"],
-          cover: "/cases/textdocs/cover.jpg",
-          images: [
-            "/cases/textdocs/1.png",
-            "/cases/textdocs/2.png",
-            "/cases/textdocs/3.png",
-            "/cases/textdocs/4.png",
-            "/cases/textdocs/5.png",
-          ],
-          sections: [],
-        },
-        {
-          slug: "metrictree",
-          title: "MetricTree",
-          subtitle: "Кейс: Создание дерева метрик с помощью AI.",
-          tags: ["AI", "Metrics", "Product Analytics"],
-          cover: "/cases/metrictree/cover.png",
-          images: [
-            "/cases/metrictree/1.jpg",
-            "/cases/metrictree/2.jpg",
-            "/cases/metrictree/3.jpg",
-            "/cases/metrictree/4.jpg",
-            "/cases/metrictree/5.jpg",
-            "/cases/metrictree/6.jpg",
-            "/cases/metrictree/7.jpg",
           ],
           sections: [],
         },
@@ -184,6 +155,60 @@ export const site = {
             "/cases/conf/4.png",
             "/cases/conf/5.png",
             "/cases/conf/6.png",
+          ],
+          sections: [],
+        },
+      ] as Case[],
+    },
+        {
+      title: "AI кейсы",
+      items: [
+        {
+          slug: "custdev",
+          title: "AI CustDev Assistant",
+          subtitle:
+            "Кейс автоматизации анализа B2B-интервью в проекте «Сервис Яша» — революционное решение для обработки интервью с владельцами шиномонтажей и партнёрами.",
+          tags: ["AI", "CustDev", "Automation"],
+          cover: "/cases/custdev/cover.png",
+          images: [
+            "/cases/custdev/1.jpg",
+            "/cases/custdev/2.jpg",
+            "/cases/custdev/3.jpg",
+            "/cases/custdev/4.jpg",
+            "/cases/custdev/5.jpg",
+            "/cases/custdev/6.jpg",
+          ],
+          sections: [],
+        },
+        {
+          slug: "textdocs",
+          title: "Google docs automation",
+          subtitle: "Кейс: Автоматизация создания тестовой документации с помощью AI.",
+          tags: ["AI", "Docs", "Automation"],
+          cover: "/cases/textdocs/cover.jpg",
+          images: [
+            "/cases/textdocs/1.png",
+            "/cases/textdocs/2.png",
+            "/cases/textdocs/3.png",
+            "/cases/textdocs/4.png",
+            "/cases/textdocs/5.png",
+          ],
+          sections: [],
+        },
+        {
+          slug: "metrictree",
+          title: "MetricTree",
+          subtitle: "Кейс: Создание дерева метрик с помощью AI.",
+          tags: ["AI", "Metrics", "Product Analytics"],
+          cover: "/cases/metrictree/cover.png",
+          images: [
+            "/cases/metrictree/1.jpg",
+            "/cases/metrictree/2.jpg",
+            "/cases/metrictree/3.jpg",
+            "/cases/metrictree/4.jpg",
+            "/cases/metrictree/5.jpg",
+            "/cases/metrictree/6.jpg",
+            "/cases/metrictree/7.jpg",
           ],
           sections: [],
         },
