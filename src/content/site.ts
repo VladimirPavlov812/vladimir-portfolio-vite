@@ -164,6 +164,23 @@ export const site = {
       title: "AI кейсы",
       items: [
         {
+          slug: "metrictree",
+          title: "MetricTree",
+          subtitle: "Кейс: Создание дерева метрик с помощью AI.",
+          tags: ["AI", "Metrics", "Product Analytics"],
+          cover: "/cases/metrictree/cover.png",
+          images: [
+            "/cases/metrictree/1.jpg",
+            "/cases/metrictree/2.jpg",
+            "/cases/metrictree/3.jpg",
+            "/cases/metrictree/4.jpg",
+            "/cases/metrictree/5.jpg",
+            "/cases/metrictree/6.jpg",
+            "/cases/metrictree/7.jpg",
+          ],
+          sections: [],
+        },
+        {
           slug: "custdev",
           title: "AI CustDev Assistant",
           subtitle:
@@ -195,24 +212,7 @@ export const site = {
           ],
           sections: [],
         },
-        {
-          slug: "metrictree",
-          title: "MetricTree",
-          subtitle: "Кейс: Создание дерева метрик с помощью AI.",
-          tags: ["AI", "Metrics", "Product Analytics"],
-          cover: "/cases/metrictree/cover.png",
-          images: [
-            "/cases/metrictree/1.jpg",
-            "/cases/metrictree/2.jpg",
-            "/cases/metrictree/3.jpg",
-            "/cases/metrictree/4.jpg",
-            "/cases/metrictree/5.jpg",
-            "/cases/metrictree/6.jpg",
-            "/cases/metrictree/7.jpg",
-          ],
-          sections: [],
-        },
-      ] as Case[],
+        ] as Case[],
     },
   ],
 
