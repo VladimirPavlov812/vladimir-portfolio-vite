@@ -180,7 +180,7 @@ export const site = {
           ],
           sections: [],
         },
-        {
+       /* {
           slug: "custdev",
           title: "AI CustDev Assistant",
           subtitle:
@@ -196,7 +196,7 @@ export const site = {
             "/cases/custdev/6.jpg",
           ],
           sections: [],
-        },
+        }, */
         {
           slug: "textdocs",
           title: "Google docs automation",
