@@ -29,7 +29,7 @@ export const site = {
 
   cv: {
     label: "Скачать CV",
-    href: "https://disk.yandex.ru/i/RdfQ2M8Igaa9JA",
+    href: "https://disk.yandex.ru/i/8F50UJu3jdeusw",
   },
 
   links: {
